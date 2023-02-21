@@ -20,6 +20,7 @@
 "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
 },
 "closed_at": null,
+"company": null,
 "confirmed": true,
 "contact_email": "admin@gmail.com",
 "created_at": "2022-12-30T11:41:34+07:00",
@@ -80,6 +81,7 @@
 "landing_site": "/",
 "landing_site_ref": null,
 "location_id": null,
+"merchant_of_record_app_id": null,
 "name": "#1004",
 "note": null,
 "note_attributes": [],
@@ -166,7 +168,6 @@
 "currency_code": "VND"
 }
 },
-"total_price_usd": "10.22",
 "total_shipping_price_set": {
 "shop_money": {
 "amount": "0",
@@ -217,16 +218,12 @@
 "updated_at": "2022-12-30T11:41:34+07:00",
 "first_name": "le",
 "last_name": "hoang loi",
-"orders_count": 0,
 "state": "disabled",
-"total_spent": "0.00",
-"last_order_id": null,
 "note": null,
 "verified_email": true,
 "multipass_identifier": null,
 "tax_exempt": false,
 "tags": "",
-"last_order_name": null,
 "currency": "VND",
 "phone": null,
 "accepts_marketing_updated_at": "2022-12-28T09:29:12+07:00",
@@ -271,16 +268,6 @@
 "gift_card": false,
 "grams": 1000,
 "name": "Áo Khoác Cardigan Viền Xanh Nâu - XL / Xanh",
-"origin_location": {
-"id": 3762866716990,
-"country_code": "VN",
-"province_code": "",
-"name": "Shop location",
-"address1": "",
-"address2": "",
-"city": "",
-"zip": ""
-},
 "price": "70000",
 "price_set": {
 "shop_money": {
@@ -345,16 +332,6 @@
 "gift_card": false,
 "grams": 3000,
 "name": "Áo hoodie dài tay có mũ nỉ trơn unisex nam - XL / Đen",
-"origin_location": {
-"id": 3762866716990,
-"country_code": "VN",
-"province_code": "",
-"name": "Shop location",
-"address1": "",
-"address2": "",
-"city": "",
-"zip": ""
-},
 "price": "150000",
 "price_set": {
 "shop_money": {
@@ -416,7 +393,11 @@
 "avs_result_code": null,
 "cvv_result_code": null,
 "credit_card_number": "•••• •••• •••• 1",
-"credit_card_company": "Bogus"
+"credit_card_company": "Bogus",
+"credit_card_name": "Test",
+"credit_card_wallet": null,
+"credit_card_expiration_month": 11,
+"credit_card_expiration_year": 2023
 },
 "payment_terms": null,
 "refunds": [],
